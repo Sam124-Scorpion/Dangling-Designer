@@ -1,7 +1,7 @@
 import { GoogleGenerativeAI } from '@google/generative-ai'
 import { NextRequest, NextResponse } from 'next/server'
 import { STYLIST_SYSTEM_PROMPT } from '@/lib/prompt'
-import { Message } from '@/lib/types'
+import { Message, Outfit } from '@/lib/types'
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY!)
 
@@ -54,7 +54,7 @@ export async function POST(req: NextRequest) {
       const unsplashKey = process.env.UNSPLASH_ACCESS_KEY
       
       parsed.outfits = await Promise.all(
-        parsed.outfits.map(async (outfit: { image_search: string }) => {
+        parsed.outfits.map(async (outfit: Outfit) => {
           try {
             if (unsplashKey) {
               const searchRes = await fetch(
@@ -63,7 +63,7 @@ export async function POST(req: NextRequest) {
               const data = await searchRes.json()
               return {
                 ...outfit,
-                image_url: data.results?.[0]?.urls?.small || `https://placehold.co/400x300?text=${encodeURIComponent(outfit.name)}`,
+                image_url: data.results?.[0]?.urls?.small || `https://placehold.co/400x300?text=${encodeURIComponent(outfit.name || outfit.image_search)}`,
               }
             }
           } catch (err) {
@@ -71,7 +71,7 @@ export async function POST(req: NextRequest) {
           }
           return {
             ...outfit,
-            image_url: `https://placehold.co/400x300?text=${encodeURIComponent(outfit.name)}`,
+            image_url: `https://placehold.co/400x300?text=${encodeURIComponent(outfit.name || outfit.image_search)}`,
           }
         })
       )

@@ -23,7 +23,7 @@ export default function ChatMessage({ message }: { message: Message }) {
   return (
     <div className="flex gap-2 items-start">
       <div className="w-8 h-8 rounded-full bg-brand-50 dark:bg-brand-900 flex items-center justify-center text-xs font-medium text-brand-800 dark:text-brand-200 shrink-0">
-        ST
+        DD
       </div>
       <div className="max-w-[85%] flex flex-col gap-3">
         {data ? (
