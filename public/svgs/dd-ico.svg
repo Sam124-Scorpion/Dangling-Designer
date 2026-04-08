@@ -1,0 +1,46 @@
+<svg width="680" height="680" viewBox="0 0 680 680" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Dangling Designer app icon</title>
+  <desc>App icon for the AI fashion recommender — a chat bubble merged with a clothes hanger and needle motif, DD monogram</desc>
+
+  <rect width="680" height="680" rx="148" fill="#534AB7"/>
+  <rect x="60" y="60" width="560" height="560" rx="110" fill="#3C3489" opacity="0.5"/>
+
+  <path d="M340 170 Q340 148 358 142 Q378 136 382 152 Q386 164 374 168"
+        fill="none" stroke="#C4A882" stroke-width="10" stroke-linecap="round"/>
+  <path d="M340 190 Q240 230 172 310"
+        fill="none" stroke="#F0ECE8" stroke-width="9" stroke-linecap="round"/>
+  <path d="M340 190 Q440 230 508 310"
+        fill="none" stroke="#F0ECE8" stroke-width="9" stroke-linecap="round"/>
+  <line x1="172" y1="310" x2="508" y2="310" stroke="#F0ECE8" stroke-width="9" stroke-linecap="round"/>
+
+  <rect x="210" y="340" width="260" height="160" rx="28" fill="#C4A882"/>
+  <polygon points="300,496 268,530 330,496" fill="#C4A882"/>
+
+  <g transform="translate(270, 400)">
+    <line x1="0" y1="-18" x2="0" y2="18" stroke="#534AB7" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-18" y1="0" x2="18" y2="0" stroke="#534AB7" stroke-width="4" stroke-linecap="round"/>
+    <line x1="-12" y1="-12" x2="12" y2="12" stroke="#534AB7" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="12" y1="-12" x2="-12" y2="12" stroke="#534AB7" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(340, 378)">
+    <line x1="0" y1="-10" x2="0" y2="10" stroke="#534AB7" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-10" y1="0" x2="10" y2="0" stroke="#534AB7" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(400, 405)">
+    <line x1="0" y1="-13" x2="0" y2="13" stroke="#534AB7" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="-13" y1="0" x2="13" y2="0" stroke="#534AB7" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="-8" y1="-8" x2="8" y2="8" stroke="#534AB7" stroke-width="2" stroke-linecap="round"/>
+    <line x1="8" y1="-8" x2="-8" y2="8" stroke="#534AB7" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(520, 178) rotate(38)">
+    <rect x="-4" y="-26" width="8" height="50" rx="4" fill="#C4A882"/>
+    <ellipse cx="0" cy="-17" rx="2.5" ry="3" fill="#3C3489"/>
+    <polygon points="-4,20 4,20 0,32" fill="#C4A882"/>
+  </g>
+  <path d="M530 158 Q510 140 496 155 Q484 168 500 178" fill="none" stroke="#C4A882" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+
+  <text x="340" y="610" text-anchor="middle"
+        font-family="Georgia, serif" font-size="42" font-weight="700"
+        letter-spacing="10" fill="#C4A882">DD</text>
+</svg>

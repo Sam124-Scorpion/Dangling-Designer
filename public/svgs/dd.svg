@@ -1,0 +1,54 @@
+<svg width="680" height="280" viewBox="0 0 680 280" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Dangling Designer logo</title>
+  <desc>Elegant fashion brand logo for Dangling Designer featuring a needle and thread motif with stylish serif lettering</desc>
+
+  <defs>
+    <style>
+      .logo-main { font-family: Georgia, 'Times New Roman', serif; font-size: 52px; font-weight: 700; letter-spacing: 2px; fill: #1a1a1a; }
+      .logo-sub  { font-family: Georgia, 'Times New Roman', serif; font-size: 22px; font-weight: 400; letter-spacing: 8px; fill: #6B4FA0; }
+      .thread    { fill: none; stroke: #C4A882; stroke-width: 1.5; stroke-linecap: round; }
+      .needle    { fill: #C4A882; }
+      .dot       { fill: #C4A882; }
+    </style>
+  </defs>
+
+  <!-- White background for standalone file -->
+  <rect width="680" height="280" fill="#ffffff"/>
+
+  <!-- Hanging thread from top -->
+  <line x1="340" y1="0" x2="340" y2="38" class="thread" stroke-dasharray="4 3"/>
+
+  <!-- Needle -->
+  <g transform="translate(340, 52) rotate(8)">
+    <rect x="-3.5" y="-22" width="7" height="44" rx="3.5" class="needle"/>
+    <ellipse cx="0" cy="-15" rx="2" ry="2.5" fill="#1a1a1a"/>
+    <polygon points="-3.5,18 3.5,18 0,28" class="needle"/>
+    <path d="M0 -15 Q-18 -8 -28 6 Q-36 18 -24 28 Q-14 36 -4 30" class="thread"/>
+    <path d="M0 -15 Q12 -4 18 8" class="thread"/>
+  </g>
+
+  <!-- Decorative thread swirls -->
+  <path d="M180 110 Q160 90 155 105 Q150 120 165 118 Q178 116 172 130" class="thread" opacity="0.5"/>
+  <path d="M500 108 Q520 88 525 103 Q530 118 515 116 Q502 114 508 128" class="thread" opacity="0.5"/>
+
+  <!-- Main brand name -->
+  <text x="340" y="168" text-anchor="middle" class="logo-main">DANGLING</text>
+
+  <!-- Rule lines -->
+  <line x1="110" y1="185" x2="238" y2="185" stroke="#C4A882" stroke-width="0.8"/>
+  <line x1="442" y1="185" x2="570" y2="185" stroke="#C4A882" stroke-width="0.8"/>
+
+  <!-- Diamond ornament -->
+  <polygon points="340,179 345,185 340,191 335,185" fill="#C4A882"/>
+
+  <!-- Subtitle -->
+  <text x="340" y="220" text-anchor="middle" class="logo-sub">DESIGNER</text>
+
+  <!-- Three dots -->
+  <circle cx="324" cy="240" r="2.5" class="dot"/>
+  <circle cx="340" cy="240" r="2.5" class="dot"/>
+  <circle cx="356" cy="240" r="2.5" class="dot"/>
+
+  <!-- Bottom rule -->
+  <line x1="200" y1="256" x2="480" y2="256" stroke="#C4A882" stroke-width="0.5"/>
+</svg>
