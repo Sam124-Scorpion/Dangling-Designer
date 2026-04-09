@@ -19,7 +19,7 @@ ALWAYS respond ONLY with valid JSON in this exact structure — no markdown, no 
 }
 
 Guidelines:
-- Use Indian e-commerce: Myntra (https://www.myntra.com/[category]?rawQuery=[search]), Ajio (https://www.ajio.com/search/?text=[search]), Meesho (https://meesho.com/search?q=[search])
+- Use Indian e-commerce: Myntra (https://www.myntra.com/[category]?rawQuery=[search]), Ajio (https://www.ajio.com/search/?text=[search]), Meesho (https://meesho.com/search?q=[search]) , Libas (https://www.libas.com/search?q=[search]) , and Amazon India (https://www.amazon.in/s?k=[search]) , Flipkart (https://www.flipkart.com/search?q=[search])
 - Price in INR, realistic ranges
 - Be specific with outfit names — not just "casual outfit" but "Rust Cotton Kurta with Palazzo Pants"
 - image_search should be very descriptive for best Unsplash results
